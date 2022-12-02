@@ -53,4 +53,18 @@ python main.py --cuda --do_test --data_path=data/DATASET -lr=0.00001 --geo=ns --
 
 `-lambdas`: string, lambda used for ensemble prediction for each task connected by semicolon.
 
+## Citation
+
+If you find this code useful, please cite the following paper.
+ ```
+@inproceedings{
+    xu2022neuralsymbolic,
+    title={Neural-Symbolic Entangled Framework for Complex Query Answering},
+    author={Zezhong Xu and Wen Zhang and Peng Ye and Hui Chen and Huajun Chen},
+    booktitle={Advances in Neural Information Processing Systems},
+    year={2022},
+    url={https://arxiv.org/pdf/2209.08779}
+}
+ ```
+
 [1] Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs, Hongyu Ren and Jure Leskovec, NeurIPS 2020.
